@@ -1,0 +1,41 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+Acceuil:
+    path: /acceuilnew
+    controller: App\Controller\AcceuilnewController::index
+Actus:
+    path: /actus
+    controller: App\Controller\ActusController::show
+
+Contact:
+    path: /contact
+    controller: App\Controller\ContactController::action
+
+Formation:
+    path: /formations
+    controller: App\Controller\FormationController::index
+
+Form:
+    path: /formnew
+    controller: App\Controller\FormnewController::index
+
+Onparledenous:
+    path: /on/parle/de/nous
+    controller: App\Controller\OnParleDeNousController::index
+
+Pedagogie:
+    path: /pedagogie
+    controller: App\Controller\PedagogieController::index
+
+Presentation:
+    path: /presentation
+    controller: App\Controller\PresentationController::index
+
+Staff:
+    path: /staff
+    controller: App\Controller\StaffController::index
+
+TarifMateriel:
+    path: /tarifs/matetriel
+    controller: App\Controller\TarifsMaterielController::index

@@ -1,0 +1,13 @@
+
+{% extends 'base.html.twig' %}
+
+{% block stylesheets %}
+    <link rel="stylesheet" href="{{ asset('build/css/Formnew.css') }}">
+{% endblock %}
+
+{% block title %}Nouvelle Sortie{% endblock %}
+
+{% block body %}
+    {{ include('formnew/index.html.twig') }}
+
+{% endblock %}

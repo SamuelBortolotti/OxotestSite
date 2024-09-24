@@ -1,0 +1,12 @@
+{# templates/test.html.twig #}
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contactez-nous</title>
+    <link rel="stylesheet" href="{{ asset('build/css/Contact.css') }}">
+</head>
+<h1>Contactez-nous</h1>
+<form action="{{ path('app_contact') }}" method="POST">
+    {{ form_widget(form) }}
+    <button type="submit">Submit</button>
+</form>

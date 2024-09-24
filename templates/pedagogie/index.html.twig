@@ -1,0 +1,25 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello PedagogieController!{% endblock %}
+
+{% block body %}
+<style>
+    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
+    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
+</style>
+
+<div class="example-wrapper">
+    <h1>Hello {{ controller_name }}! ✅</h1>
+
+    This friendly message is coming from:
+    <ul>
+        <li>Your controller at <code><a href="{{ 'C:/wamp64/www/OXO-test2/src/Controller/PedagogieController.php'|file_link(0) }}">src/Controller/PedagogieController.php</a></code></li>
+        <li>Your template at <code><a href="{{ 'C:/wamp64/www/OXO-test2/templates/pedagogie/index.html.twig'|file_link(0) }}">templates/pedagogie/index.html.twig</a></code></li>
+    </ul>
+
+    <h1>Notre pédagogie</h1>
+    <p>
+        OXO est la première formation aux métiers du jeu vidéo de l’Aude. Notre objectif est d’apporter un service de haute qualité au plus près de chez vous.</p>
+    <p> Conscients des limites et des contraintes auxquelles sont soumises la plupart des formations, nous avons adopté une charte d’engagement qualité garantissant des conditions de travail d’exception, tant pour les élèves que pour les professeurs.</p>
+</div>
+{% endblock %}

@@ -1,0 +1,24 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}OXO{% endblock %}
+
+{% block body %}
+<style>
+    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
+    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
+    <link rel="stylesheet" href="{{ asset('path/to/bootstrap.css') }}">
+</style>
+
+<div class="example-wrapper">
+    <h1>Hello ! ✅</h1>
+
+    <h2>Ceci est la page d'acceuil du futur site de OXO l'école occitane du jeu vidéo</h2>
+    <ul>
+        <li>Your controller at <code><a href="{{ 'C:/wamp64/www/OXO-test2/src/Controller/AcceuilnewController.php'|file_link(0) }}">src/Controller/AcceuilnewController.php</a></code></li>
+        <li>Your template at <code><a href="{{ 'C:/wamp64/www/OXO-test2/templates/acceuilnew/index.html.twig'|file_link(0) }}">templates/acceuilnew/index.html.twig</a></code></li>
+    </ul>
+</div>
+
+    <button><label>Cliquez ici pour déposer une candidature!</label></button>
+
+{% endblock %}

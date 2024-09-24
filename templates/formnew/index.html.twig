@@ -1,0 +1,12 @@
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>Déposer Candidature</title>
+    <link rel="stylesheet" href="{{ asset('build/css/Contact.css') }}">
+</head>
+<h1>Déposer Candidature</h1>
+<form action="{{ path('app_formnew') }}" method="POST">
+    {{ form_widget(form) }}
+    <button type="submit">Je dépose ma candidature!</button>
+</form>
